@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #000;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #f7b500;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    height: 90vh;
+    background: url("../images/lion.jpg") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 60px;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+}
+
+.section {
+    padding: 60px 40px;
+    background: white;
+}
+
+.tours {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+.tour-card {
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tour-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tour-card h3 {
+    padding: 15px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
